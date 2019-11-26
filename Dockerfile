@@ -1,4 +1,4 @@
-FROM stackstorm/stackstorm:3.0s AS base
+FROM stackstorm/stackstorm:3.0 AS base
 
 COPY setup-pack-virtualenv.py /setup-pack-virtualenv.py
 
